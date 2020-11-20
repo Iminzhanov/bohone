@@ -3,5 +3,6 @@
 
 
 @import "./base.css";
-@import "./componets/header.css";
 @import "./columns.css";
+@import "./componets/header.css";
+@import "./componets/hero.css";
