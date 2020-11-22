@@ -1,0 +1,86 @@
+.company {
+    padding-top: 40px;
+}
+.company__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about__us {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+}
+.company__prom {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+.company__prom span {
+    color: blue;
+}
+.company__description p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    width: 445px;
+}
+
+.company__menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.company__case {
+    padding: 30px 40px 30px 33px;
+    width: 45%;
+    background-color: #EBEBEB;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+.count {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.end__case {
+    font-family:'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    padding-bottom: 47px;
+    padding-top: 30px;
+    width: 107px;
+}
+.all__case {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline !important;
+    color: black;
+}
+.company__case:hover {
+    color: white;
+    background-color:  #005FA3;
+    
+}
